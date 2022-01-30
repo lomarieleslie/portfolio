@@ -234,4 +234,159 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 125%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Doppelganger";
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 100px;
+  color: #54482c;
+  margin: 0;
+}
+
+.arrow {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.arrow-down {
+  text-align: center;
+  border: solid #54482c;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow-down:hover {
+  border: solid #f9bb57;
+  border-width: 0 3px 3px 0;
+  transition: 0.3s;
+}
+
+header {
+  background-color: #eae7e2;
+}
+header .smiley {
+  width: 7%;
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 5000ms;
+          animation-duration: 5000ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+@-webkit-keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+header .header-flex {
+  display: flex;
+  justify-content: space-between;
+}
+header .nav-ul {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+  padding: 1rem;
+}
+header li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #54482c;
+}
+header a:hover {
+  color: #F9BB57;
+  transition: 0.3s;
+}
+
+.intro {
+  background-color: #eae7e2;
+  height: 100vh;
+}
+.intro .mint-circle {
+  border-radius: 100%;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 10%;
+  top: 40%;
+  background: #d9e5de;
+  z-index: 0;
+}
+.intro .orange-circle {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  left: 65%;
+  top: 20%;
+  background: #fbb271;
+  transform: rotate(3.05deg);
+  border-radius: 50%;
+}
+.intro h1 {
+  font-family: "Doppelganger";
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 100px;
+  color: #54482c;
+  width: 75%;
+  margin: 0;
+  padding-top: 10%;
+  padding-left: 15%;
+  position: relative;
+  z-index: 1;
+}
+.intro img {
+  position: absolute;
+  top: 25%;
+  left: 70%;
+  width: 300px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background: #d8d8d8;
+  border-radius: 238.5px;
+}
+
+.about,
+.projects,
+.contact {
+  background-color: #eae7e2;
+  height: 100vh;
+}
+
+footer {
+  background: #D3DDDF;
+  border-radius: 80px 80px 0px 0px;
+  height: 20%;
 }/*# sourceMappingURL=style.css.map */

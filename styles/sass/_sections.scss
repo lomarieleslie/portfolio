@@ -1,0 +1,60 @@
+// Main Styles
+
+.intro {
+  background-color: #eae7e2;
+  height: 100vh;
+
+  .mint-circle {
+    border-radius: 100%;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 10%;
+    top: 40%;
+    background: #d9e5de;
+    z-index: 0;
+  }
+
+  .orange-circle {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    left: 65%;
+    top: 20%;
+    background: #fbb271;
+    transform: rotate(3.05deg);
+    border-radius: 50%;
+  }
+
+  h1 {
+    font-family: "Doppelganger";
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 100px;
+    color: #54482c;
+    width: 75%;
+    margin: 0;
+    padding-top: 10%;
+    padding-left: 15%;
+    position: relative;
+    z-index: 1;
+  }
+  img {
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    background: #d8d8d8;
+    border-radius: 238.5px;
+  }
+
+}
+
+.about,
+.projects,
+.contact {
+  background-color: #eae7e2;
+  height: 100vh;
+}

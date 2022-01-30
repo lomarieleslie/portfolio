@@ -4,28 +4,75 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/sass/style.css" />
     <title>Lorraine Leslie</title>
   </head>
   <body>
     <header>
       <nav>
         <ul class="nav-ul">
-          <li><a href="">about</a></li>
+          <li><a href="#about">about</a></li>
           <li><a href="">projects</a></li>
           <li><a href="">contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <h1>Lorraine Leslie / Front End Web Developer</h1>
-      <div class="orange-circle"></div>
+      <section class="intro">
+        <h1>Lorraine Leslie / Front End Web Developer</h1>
+        <div class="mint-circle"></div> 
+        <div class="orange-circle"></div> 
+        <img
+          src="./assets/lorraine-leslie.JPG"
+          alt="Picture of Lorraine; she has a fair complexion, dark short hair and is wearing glasses and a black shirt."
+        />
+
+        <div class="arrow"><a href="#about"><i class="arrow-down"></i></a></div>
+      </section>
+      <section class="about" id="about">
+
+        <h1>About</h1>
+        <p>
+          Hello and welcome! Thank you for being here. My name is Lorraine
+          Leslie - I'm a recent Juno College Web Development grad.
+        </p>
+        <div class="arrow"><a href="#projects"><i class="arrow-down"></i></a></div>
+      </section>
+      <section class="projects" id="projects">
+          <h1>Projects + Skills</h1>
+          <div class="arrow"><a href="#contact"><i class="arrow-down"></i></a></div>
+      </section>
+      <section class="contact" id="contact">
+          <h1>Connect with me</h1>
+      </section>
+      <footer>
+          email : <a href="mailto:lorrainemleslie@gmail.com">lorrainemleslie@gmail.com</a>
+
+      </footer>
     </main>
   </body>
 </html>

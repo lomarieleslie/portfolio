@@ -243,6 +243,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #eae7e2;
 }
 
 h1 {
@@ -255,7 +256,7 @@ h1 {
 }
 
 .arrow {
-  margin-top: 4rem;
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -285,7 +286,7 @@ h1 {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -350,10 +351,14 @@ header a:hover {
   position: absolute;
   width: 150px;
   height: 150px;
-  left: 10%;
-  top: 40%;
+  left: 16%;
+  top: 30%;
   background: #d9e5de;
   z-index: 0;
+}
+.intro .intro-container {
+  display: flex;
+  padding-top: 10%;
 }
 .intro h1 {
   font-family: "Doppelganger";
@@ -363,15 +368,12 @@ header a:hover {
   color: #54482c;
   width: 75%;
   margin: 0;
-  padding-top: 10%;
-  padding-left: 15%;
+  padding-left: 6%;
+  align-self: center;
   position: relative;
   z-index: 1;
 }
 .intro img {
-  position: absolute;
-  top: 25%;
-  left: 65%;
   width: 300px;
   height: 400px;
   -o-object-fit: cover;
@@ -390,7 +392,10 @@ header a:hover {
   align-self: center;
   border-left: solid 1px #514425;
   font-size: 0.9rem;
+  margin-top: 3rem;
   padding-left: 20px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   z-index: 1;
 }
 .about a {
@@ -427,13 +432,49 @@ header a:hover {
   position: absolute;
   width: 150px;
   height: 150px;
-  left: 85%;
+  top: 133%;
+  left: 75%;
   background: #f9bb57;
   z-index: 0;
+}
+
+.projects h3 {
+  font-family: "Doppelganger";
+  text-align: center;
+  font-size: 3rem;
+  color: #514425;
+  text-transform: uppercase;
+}
+.projects .toolkit {
+  margin: 15vh 0 5vh;
+  display: grid;
+  flex-wrap: wrap;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.projects .icon-container {
+  width: 25%;
+}
+.projects i {
+  color: #514425;
+  font-size: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projects i:hover {
+  color: #FFB49C;
+  transition: 0.3s;
+}
+.projects p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.7rem;
 }
 
 footer {
   background: #D3DDDF;
   border-radius: 80px 80px 0px 0px;
-  height: 20%;
+  height: 300px;
 }/*# sourceMappingURL=style.css.map */

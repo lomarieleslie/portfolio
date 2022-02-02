@@ -256,7 +256,7 @@ h1 {
 }
 
 .arrow {
-  margin-top: 5rem;
+  margin-top: 4rem;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -442,12 +442,13 @@ header a:hover {
 }
 
 .skills {
+  background-color: #d9e5de;
   height: 100vh;
 }
 .skills h3 {
   font-family: "Doppelganger";
   text-align: center;
-  margin-top: 2rem;
+  padding-top: 2rem;
   font-size: 3rem;
   color: #514425;
   text-transform: uppercase;
@@ -465,6 +466,7 @@ header a:hover {
   flex-wrap: wrap;
   gap: 1em;
   justify-content: center;
+  border-left: solid 1px #514425;
 }
 .skills .icon-container {
   width: 25%;
@@ -477,11 +479,14 @@ header a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 10px;
 }
 .skills li:hover,
 .skills i:hover {
-  color: #FBB271;
   transition: 0.3s;
+}
+.skills i:hover:not(.arrow-down) {
+  transform: scale(1.3);
 }
 .skills p {
   text-align: center;

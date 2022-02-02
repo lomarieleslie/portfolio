@@ -20,7 +20,7 @@
     padding-top: 10%;
   }
 
-  .lorraine-leslie{
+  .lorraine-leslie {
     border-bottom: 1px solid #514425;
   }
 
@@ -111,80 +111,79 @@
   }
 }
 
-
 // Projects & Toolkit Styles
 
-
-.skills{
-
+.skills {
+  background-color: #d9e5de;
   height: 100vh;
 
-  h3{
-    font-family: 'Doppelganger';
+  h3 {
+    font-family: "Doppelganger";
     text-align: center;
-    margin-top: 2rem;
+    padding-top: 2rem;
     font-size: 3rem;
     color: #514425;
     text-transform: uppercase;
   }
 
-  .toolkit{
+  .toolkit {
     margin: 15vh 0 5vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    
   }
 
-  ul{
+  ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap:1em;
+    gap: 1em;
     justify-content: center;
+    border-left: solid 1px #514425;
   }
 
-  .icon-container{
+  .icon-container {
     width: 25%;
     display: flex;
     flex-direction: column;
   }
 
   i {
-    color:#514425;
+    color: #514425;
     font-size: 2.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 10px;
   }
 
   li:hover,
-  i:hover{
-    color:#FBB271;
-    transition: .3s;
+  i:hover {
+    transition: 0.3s;
+   
   }
 
-  p{
+  i:hover:not(.arrow-down){
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+  }
+
+  p {
     text-align: center;
     text-transform: uppercase;
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
-
-
 }
 
-
-
-
-
 .contact {
-  form{
+  form {
     display: flex;
     flex-direction: column;
   }
 
-  textarea{
+  textarea {
     resize: none;
   }
 
@@ -192,7 +191,7 @@
     width: 500px;
   }
 
-  button{
+  button {
     width: 8rem;
   }
 }

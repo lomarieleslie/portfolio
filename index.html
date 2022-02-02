@@ -41,8 +41,8 @@
         <nav>
           <ul class="nav-ul">
             <li><a href="#about">about</a></li>
-            <li><a href="">projects</a></li>
-            <li><a href="">contact</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">contact</a></li>
           </ul>
         </nav>
       </div>
@@ -51,7 +51,8 @@
       <section class="intro">
         <div class="wrapper">
           <div class="intro-container">
-            <h1>Lorraine Leslie / Front End Web Developer</h1>
+            <h1><span class="lorraine-leslie">Lorraine Leslie</span> / <br>
+               Front End Web Developer</h1>
             <div class="mint-circle"></div>
 
             <img
@@ -97,11 +98,10 @@
         </div>
 
         <div class="arrow">
-          <a href="#projects"><i class="arrow-down"></i></a>
+          <a href="#skills"><i class="arrow-down"></i></a>
         </div>
       </section>
-      <section class="projects" id="projects">
-        <h1>Projects + Skills</h1>
+      <section class="skills" id="skills">
 
         <h3>My toolkit</h3>
 
@@ -158,25 +158,27 @@
         </div>
 
         <div class="arrow">
-          <a href="#contact"><i class="arrow-down"></i></a>
+          <a href="#projects"><i class="arrow-down"></i></a>
         </div>
       </section>
-      <section class="contact" id="contact">
-        <h1>Connect with me</h1>
+      <section class="projects" id="projects">
+        <h1>Projects</h1>
       </section>
-      <footer>
-       <form action="contact">
+      <section class="contact" id="contact">
+         <form action="contact">
          <label for="Name">
            <input type="text" placeholder="Your Name">
          </label>
          <label for="email-address"> 
            <input type="text" placeholder="Email Address">
          </label>
-         <label for="Message">
-           <textarea name="Message" id="Message" cols="40" rows="10"></textarea>
-         </label>
+         <label for="Message"></label>
+         <textarea name="Message" id="Message" cols="40" rows="10"></textarea>
          <button>Get In Touch</button>
        </form>
+      </section>
+      <footer>
+      
       </footer>
     </main>
   </body>

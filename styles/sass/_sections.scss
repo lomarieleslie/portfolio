@@ -20,6 +20,10 @@
     padding-top: 10%;
   }
 
+  .lorraine-leslie{
+    border-bottom: 1px solid #514425;
+  }
+
   h1 {
     font-family: "Doppelganger";
     text-transform: uppercase;
@@ -57,7 +61,7 @@
     border-left: solid 1px #514425;
     font-size: 0.9rem;
     margin-top: 3rem;
-    padding-left: 20px;
+    padding-left: 40px;
     padding-top: 2rem;
     padding-bottom: 2rem;
     z-index: 1;
@@ -111,11 +115,14 @@
 // Projects & Toolkit Styles
 
 
-.projects{
+.skills{
+
+  height: 100vh;
 
   h3{
     font-family: 'Doppelganger';
     text-align: center;
+    margin-top: 2rem;
     font-size: 3rem;
     color: #514425;
     text-transform: uppercase;
@@ -152,8 +159,9 @@
     justify-content: center;
   }
 
+  li:hover,
   i:hover{
-    color:#FFB49C;
+    color:#FBB271;
     transition: .3s;
   }
 
@@ -170,7 +178,7 @@
 
 
 
-footer {
+.contact {
   form{
     display: flex;
     flex-direction: column;
@@ -178,5 +186,13 @@ footer {
 
   textarea{
     resize: none;
+  }
+
+  #messages {
+    width: 500px;
+  }
+
+  button{
+    width: 8rem;
   }
 }

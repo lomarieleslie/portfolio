@@ -4,44 +4,181 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/14397f9dca.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/sass/style.css" />
     <title>Lorraine Leslie</title>
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="nav-ul">
-          <li><a href="">about</a></li>
-          <li><a href="">projects</a></li>
-          <li><a href="">contact</a></li>
-        </ul>
-      </nav>
+      <div class="wrapper">
+        <nav>
+          <ul class="nav-ul">
+            <li><a href="#about">about</a></li>
+            <li><a href="">projects</a></li>
+            <li><a href="">contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <h1>Lorraine Leslie / Front End Web Developer</h1>
-      <div class="orange-circle"></div>
+      <section class="intro">
+        <div class="wrapper">
+          <div class="intro-container">
+            <h1>Lorraine Leslie / Front End Web Developer</h1>
+            <div class="mint-circle"></div>
+
+            <img
+              src="./assets/lorraine-leslie.JPG"
+              alt="Picture of Lorraine; she has a fair complexion, dark short hair and is wearing glasses and a black shirt."
+            />
+          </div>
+          <div class="arrow">
+            <a href="#about"><i class="arrow-down"></i></a>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <h1>About</h1>
+        <div class="orange-circle"></div>
+
+        <div class="image-about-container">
+          <img
+            class="about-image"
+            src="./assets/lorraine-leslie2.jpg"
+            alt="Lorraine holding her daughter."
+          />
+          <p class="about-paragraph">
+            Hello and welcome! I'm Lorraine Leslie - a Toronto based birth &
+            postpartum doula turned front end web developer.* I recently
+            graduated from Juno College's intensive Web Development Bootcamp and
+            have grown a passion for building clean code that provides
+            beautiful, functional, and accessible websites to users. With my
+            previous experience running a business, connecting with clients and
+            collaborating with other doulas, I look forward to integrating my
+            skills with a diverse and supportive team to bring client's visions
+            to life. Feel free to checkout my portfolio below!
+            <br />
+            <br />
+
+            *
+            <a
+              href="https://medium.com/@lorrainemleslie/were-calling-this-controlling-what-you-can-when-things-feel-out-of-control-olaf-frozen-2-fc7cd0dc32dc"
+              >click here</a
+            >
+            to read about my career change story
+          </p>
+        </div>
+
+        <div class="arrow">
+          <a href="#projects"><i class="arrow-down"></i></a>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <h1>Projects + Skills</h1>
+
+        <h3>My toolkit</h3>
+
+        <div class="toolkit">
+          <ul>
+            <li class="icon-container">
+              <i class="fab fa-js"></i>
+              <p>JavaScript</p>
+            </li>
+            <li class="icon-container">
+              <i class="fab fa-react"></i>
+              <p>React</p>
+            </li>
+            <li class="icon-container">
+              <i class="fab fa-github"></i>
+              <p>GitHub</p>
+            </li>
+            <li class="icon-container">
+              <i class="fab fa-html5"></i>
+              <p>HTML5</p>
+            </li>
+            <li class="icon-container">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS3</p>
+            </li>
+            <li class="icon-container">
+              <i class="fas fa-code-branch"></i>
+              <p>Git</p>
+            </li>
+            <li class="icon-container">
+              <i class="fas fa-universal-access"></i>
+              <p>Accessibility</p>
+            </li>
+            <li class="icon-container">
+              <i class="fas fa-mobile-alt"></i>
+              <p>
+                Responsive <br />
+                Design
+              </p>
+            </li>
+            <li class="icon-container">
+              <i class="fas fa-database"></i>
+              <p>Firebase</p>
+            </li>
+            <li class="icon-container">
+              <i class="fab fa-sass"></i>
+              <p>SCSS</p>
+            </li>
+            <li class="icon-container">
+              <i class="fas fa-terminal"></i>
+              <p>Terminal</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="arrow">
+          <a href="#contact"><i class="arrow-down"></i></a>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h1>Connect with me</h1>
+      </section>
+      <footer>
+       <form action="contact">
+         <label for="Name">
+           <input type="text" placeholder="Your Name">
+         </label>
+         <label for="email-address"> 
+           <input type="text" placeholder="Email Address">
+         </label>
+         <label for="Message">
+           <textarea name="Message" id="Message" cols="40" rows="10"></textarea>
+         </label>
+         <button>Get In Touch</button>
+       </form>
+      </footer>
     </main>
   </body>
 </html>
 
-<!-- icons: -->
-
-<!-- <a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by Smashicons - Flaticon</a> -->
-<!-- <a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Smashicons - Flaticon</a> -->
-<!-- <a href="https://www.flaticon.com/free-icons/css" title="css icons">Css icons created by Smashicons - Flaticon</a> -->
-<!-- <a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Freepik - Flaticon</a> -->
-<!-- <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by pictogramer - Flaticon</a> -->
-<!-- <a href="https://www.flaticon.com/free-icons/database" title="database icons">Database icons created by Smashicons - Flaticon</a> -->
-<!-- <a href="https://www.flaticon.com/free-icons/sass" title="sass icons">Sass icons created by Smashicons - Flaticon</a> -->
-<!-- <a href="https://www.flaticon.com/free-icons/api" title="api icons">Api icons created by justicon - Flaticon</a> -->
-<!-- <a href="https://www.flaticon.com/free-icons/git" title="git icons">Git icons created by pictogramer - Flaticon</a> -->
-
-<!-- <a href="https://www.flaticon.com/free-icons/terminal" title="terminal icons">Terminal icons created by Royyan Wijaya - Flaticon</a> -->
-
-<!-- <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Smashicons - Flaticon</a> -->

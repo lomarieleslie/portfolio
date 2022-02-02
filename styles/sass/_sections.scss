@@ -1,0 +1,182 @@
+// Main Styles
+
+.intro {
+  background-color: #eae7e2;
+  height: 100vh;
+
+  .mint-circle {
+    border-radius: 100%;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 16%;
+    top: 30%;
+    background: #d9e5de;
+    z-index: 0;
+  }
+
+  .intro-container {
+    display: flex;
+    padding-top: 10%;
+  }
+
+  h1 {
+    font-family: "Doppelganger";
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 3.5rem;
+    color: #54482c;
+    width: 75%;
+    margin: 0;
+    padding-left: 6%;
+    align-self: center;
+    position: relative;
+    z-index: 1;
+  }
+  img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    background: #d8d8d8;
+    border-radius: 238.5px;
+  }
+}
+
+// About
+
+.about {
+  h1 {
+    text-align: right;
+    margin-right: 10%;
+    padding-top: 5%;
+  }
+
+  p {
+    width: calc(100% / 2 - 75px);
+    align-self: center;
+    border-left: solid 1px #514425;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    padding-left: 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    z-index: 1;
+  }
+
+  a {
+    text-decoration: none;
+    color: #514425;
+  }
+
+  a:hover {
+    color: #f9bb57;
+    transition: 0.3s;
+  }
+
+  .about-image {
+    width: 300px;
+    height: 400px;
+    background: #d8d8d8;
+    object-fit: cover;
+    border-radius: 238.5px;
+  }
+
+  .about-image2 {
+    position: absolute;
+    width: 180px;
+    height: 175px;
+    left: 30%;
+    top: 167%;
+    object-fit: cover;
+  }
+
+  .image-about-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .orange-circle {
+    border-radius: 100%;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 133%;
+    left: 75%;
+    background: #f9bb57;
+    z-index: 0;
+  }
+}
+
+
+// Projects & Toolkit Styles
+
+
+.projects{
+
+  h3{
+    font-family: 'Doppelganger';
+    text-align: center;
+    font-size: 3rem;
+    color: #514425;
+    text-transform: uppercase;
+  }
+
+  .toolkit{
+    margin: 15vh 0 5vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+  ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1em;
+    justify-content: center;
+  }
+
+  .icon-container{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  i {
+    color:#514425;
+    font-size: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  i:hover{
+    color:#FFB49C;
+    transition: .3s;
+  }
+
+  p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .7rem;
+  }
+
+
+}
+
+
+
+
+
+footer {
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  textarea{
+    resize: none;
+  }
+}

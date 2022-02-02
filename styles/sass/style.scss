@@ -1,1 +1,6 @@
-@import 'normalize.scss';
+// Importing Sass Partials
+@import 'normalize';
+@import 'general-styles';
+@import 'header';
+@import 'sections';
+@import 'footer';

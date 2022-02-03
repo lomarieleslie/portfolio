@@ -4,3 +4,13 @@
 @import 'header';
 @import 'sections';
 @import 'footer';
+
+@font-face {
+    font-family: 'Cako';
+    src: local('Cako Regular'), local('Cako-Regular'),
+        url('/assets/Cako-Regular/Cako-Regular.woff2') format('woff2'),
+        url('/assets/Cako-Regular/Cako-Regular.woff') format('woff'),
+        url('/assets/Cako-Regular/Cako-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

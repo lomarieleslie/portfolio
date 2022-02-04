@@ -1,0 +1,82 @@
+@media (max-width: 1000px) {
+  .intro {
+    .intro-container {
+      flex-direction: column;
+      align-items: center;
+
+      h1 {
+        padding-bottom: 1rem;
+      }
+    }
+
+    .arrow-down {
+      display: none;
+    }
+  }
+  .image-about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about {
+    .orange-circle {
+      top: 196%;
+    }
+
+    h1 {
+      margin-top: 4rem;
+      text-align: center;
+      margin-right: 0;
+      padding-bottom: 1rem;
+    }
+
+    p {
+      width: 80%;
+    }
+
+    .arrow-down{
+        display: none;
+    }
+  }
+
+  .project1,
+  .project3 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .projects {
+    img {
+      width: 450px;
+    }
+
+    .project2 {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+
+    .project1,
+    .project3 {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .contact textarea,
+  .contact input {
+    font-family: "Open Sans";
+    color: #514425;
+    resize: none;
+    width: 100%;
+    padding: 0.2em;
+    background-color: #d3dddf;
+    border: 1px solid #514425;
+    align-items: center;
+    justify-content: center;
+    text-align: initial;
+  }
+
+  .contact-section {
+    margin: auto -100px;
+  }
+}

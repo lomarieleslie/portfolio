@@ -247,8 +247,7 @@ body {
 }
 
 h1 {
-  font-family: "Doppelganger";
-  text-transform: uppercase;
+  font-family: "Cako";
   letter-spacing: 0.2rem;
   font-size: 3.5rem;
   color: #54482c;
@@ -256,7 +255,8 @@ h1 {
 }
 
 .arrow {
-  margin-top: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -279,10 +279,8 @@ h1 {
 }
 
 .about,
-.projects,
-.contact {
+.skills {
   background-color: #eae7e2;
-  height: 100vh;
 }
 
 .wrapper {
@@ -290,35 +288,24 @@ h1 {
   margin: 0 auto;
 }
 
+h4 {
+  font-family: "Cako";
+  font-weight: lighter;
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  color: #54482c;
+}
+
+h3 {
+  font-family: "Cako";
+  text-align: center;
+  padding: 1em;
+  font-size: 3rem;
+  color: #514425;
+}
+
 header {
   background-color: #eae7e2;
-}
-header .smiley {
-  width: 7%;
-  -webkit-animation-name: spin;
-          animation-name: spin;
-  -webkit-animation-duration: 5000ms;
-          animation-duration: 5000ms;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-}
-@-webkit-keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 header .header-flex {
   display: flex;
@@ -333,6 +320,7 @@ header .nav-ul {
   padding: 1rem;
 }
 header li a {
+  font-size: 0.9rem;
   text-decoration: none;
   text-transform: uppercase;
   color: #54482c;
@@ -340,6 +328,119 @@ header li a {
 header a:hover {
   color: #F9BB57;
   transition: 0.3s;
+}
+
+.contact {
+  background: #d3dddf;
+  border-radius: 80px 80px 0px 0px;
+  padding-bottom: 4rem;
+}
+.contact h3 {
+  text-align: center;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 50%;
+}
+.contact textarea,
+.contact input {
+  font-family: "Open Sans";
+  color: #514425;
+  resize: none;
+  width: 100%;
+  padding: 0.2em;
+  background-color: #d3dddf;
+  border: 1px solid #514425;
+}
+.contact input::-moz-placeholder {
+  text-transform: uppercase;
+}
+.contact input:-ms-input-placeholder {
+  text-transform: uppercase;
+}
+.contact input::placeholder {
+  text-transform: uppercase;
+}
+.contact .name-email-input {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+.contact #messages {
+  width: 500px;
+}
+.contact button {
+  width: 6rem;
+  background-color: #d3dddf;
+  font-family: "Open Sans";
+  font-size: 0.8rem;
+  border: none;
+  text-transform: uppercase;
+}
+.contact .circle {
+  width: 20px;
+  height: 20px;
+  background-color: #f9bb57;
+  border-radius: 50%;
+  display: flex;
+}
+.contact .button-container {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  align-content: flex-start;
+  justify-content: flex-end;
+}
+.contact button:hover {
+  color: #4D9796;
+  transition: 0.3s ease-in;
+}
+.contact .contact-section {
+  display: flex;
+  gap: 5rem;
+  flex-direction: column;
+  align-items: center;
+}
+.contact .contact-icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  justify-content: center;
+  gap: 2em;
+}
+.contact a {
+  color: #d9e5de;
+  background-color: #54482c;
+  border-radius: 50%;
+  padding: 0.4em;
+  text-align: center;
+  width: 43px;
+}
+.contact a:hover {
+  background-color: #4D9796;
+  transition: 0.3s ease-in;
+}
+.contact i {
+  width: 33px;
+}
+
+footer {
+  border-top: solid 1px #54482c;
+  background: #D3DDDF;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  padding: 1rem;
+}
+footer p {
+  color: #54482c;
 }
 
 .intro {
@@ -364,10 +465,10 @@ header a:hover {
   border-bottom: 1px solid #514425;
 }
 .intro h1 {
-  font-family: "Doppelganger";
-  text-transform: uppercase;
+  font-family: "Cako";
   letter-spacing: 0.2rem;
-  font-size: 3.5rem;
+  font-size: 3rem;
+  font-weight: normal;
   color: #54482c;
   width: 75%;
   margin: 0;
@@ -383,6 +484,9 @@ header a:hover {
      object-fit: cover;
   background: #d8d8d8;
   border-radius: 238.5px;
+}
+.intro .arrow {
+  margin-top: 12rem;
 }
 
 .about h1 {
@@ -440,17 +544,14 @@ header a:hover {
   background: #f9bb57;
   z-index: 0;
 }
+.about .arrow {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
 
 .skills {
+  background-color: #d9e5de;
   height: 100vh;
-}
-.skills h3 {
-  font-family: "Doppelganger";
-  text-align: center;
-  margin-top: 2rem;
-  font-size: 3rem;
-  color: #514425;
-  text-transform: uppercase;
 }
 .skills .toolkit {
   margin: 15vh 0 5vh;
@@ -465,6 +566,7 @@ header a:hover {
   flex-wrap: wrap;
   gap: 1em;
   justify-content: center;
+  border-left: solid 1px #514425;
 }
 .skills .icon-container {
   width: 25%;
@@ -477,11 +579,14 @@ header a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 10px;
 }
 .skills li:hover,
 .skills i:hover {
-  color: #FBB271;
   transition: 0.3s;
+}
+.skills i:hover:not(.arrow-down) {
+  transform: scale(1.3);
 }
 .skills p {
   text-align: center;
@@ -489,22 +594,126 @@ header a:hover {
   font-size: 0.7rem;
 }
 
-.contact form {
+.projects h1 {
+  text-align: center;
+  padding: 1em;
+}
+.projects .projects-container {
   display: flex;
   flex-direction: column;
 }
-.contact textarea {
-  resize: none;
+.projects img {
+  width: 550px;
+  height: auto;
 }
-.contact #messages {
-  width: 500px;
+.projects .project1,
+.projects .project2,
+.projects .project3 {
+  display: flex;
+  flex-direction: row;
 }
-.contact button {
-  width: 8rem;
+.projects .project-description {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  line-height: 26px;
+}
+.projects .project-description p {
+  font-size: 0.8rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  color: #514425;
+}
+.projects .project-description .made-with {
+  text-transform: uppercase;
+}
+.projects .project-description a {
+  text-decoration: none;
+  color: #514425;
+  text-transform: uppercase;
+}
+.projects .project-description .links {
+  display: flex;
+  gap: 1rem;
+  border-top: #514425 1px solid;
+  padding-top: 15px;
 }
 
-footer {
-  background: #D3DDDF;
-  border-radius: 80px 80px 0px 0px;
-  height: 300px;
+@media (max-width: 1000px) {
+  .intro .intro-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro .intro-container h1 {
+    padding-bottom: 1rem;
+  }
+  .intro .arrow-down {
+    display: none;
+  }
+
+  .image-about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about .orange-circle {
+    top: 196%;
+  }
+  .about h1 {
+    margin-top: 4rem;
+    text-align: center;
+    margin-right: 0;
+    padding-bottom: 1rem;
+  }
+  .about p {
+    width: 80%;
+  }
+  .about .arrow-down {
+    display: none;
+  }
+
+  .project1,
+.project3 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .projects img {
+    width: 450px;
+  }
+  .projects .project2 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .projects .project1,
+.projects .project3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact textarea,
+.contact input {
+    font-family: "Open Sans";
+    color: #514425;
+    resize: none;
+    width: 100%;
+    padding: 0.2em;
+    background-color: #d3dddf;
+    border: 1px solid #514425;
+    align-items: center;
+    justify-content: center;
+    text-align: initial;
+  }
+
+  .contact-section {
+    margin: auto -100px;
+  }
+}
+@font-face {
+  font-family: "Cako";
+  src: local("Cako Regular"), local("Cako-Regular"), url("/assets/Cako-Regular/Cako-Regular.woff2") format("woff2"), url("/assets/Cako-Regular/Cako-Regular.woff") format("woff"), url("/assets/Cako-Regular/Cako-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }/*# sourceMappingURL=style.css.map */

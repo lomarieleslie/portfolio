@@ -3,6 +3,7 @@
 .intro {
   background-color: #eae7e2;
   height: 100vh;
+  
 
   .mint-circle {
     border-radius: 100%;
@@ -21,7 +22,7 @@
   }
 
   .lorraine-leslie {
-    border-bottom: 1px solid #514425;
+    border-bottom: 1px solid #d9d9d9;
   }
 
   h1 {
@@ -36,7 +37,6 @@
     align-self: center;
     position: relative;
     z-index: 1;
-    
   }
   img {
     width: 300px;
@@ -46,7 +46,9 @@
     border-radius: 238.5px;
   }
 
-  .arrow{
-      margin-top: 12rem;
+  .arrow {
+    margin-top: 6rem;
   }
+
 }
+

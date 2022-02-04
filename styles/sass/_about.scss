@@ -10,13 +10,14 @@
   p {
     width: calc(100% / 2 - 75px);
     align-self: center;
-    border-left: solid 1px #514425;
+    border-left: solid 1px #d9d9d9;
     font-size: 0.9rem;
     margin-top: 3rem;
     padding-left: 40px;
     padding-top: 2rem;
     padding-bottom: 2rem;
     z-index: 1;
+    text-align: justify;
   }
 
   a {
@@ -63,7 +64,6 @@
   }
 
   .arrow{
-     margin-top: 6rem;
      margin-bottom: 5rem;
     
   }

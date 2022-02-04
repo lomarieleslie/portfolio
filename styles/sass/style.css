@@ -299,7 +299,6 @@ h4 {
 h3 {
   font-family: "Cako";
   text-align: center;
-  padding: 1em;
   font-size: 3rem;
   color: #514425;
 }
@@ -337,6 +336,7 @@ header a:hover {
 }
 .contact h3 {
   text-align: center;
+  padding: 1em;
 }
 .contact form {
   display: flex;
@@ -462,7 +462,7 @@ footer p {
   padding-top: 10%;
 }
 .intro .lorraine-leslie {
-  border-bottom: 1px solid #514425;
+  border-bottom: 1px solid #d9d9d9;
 }
 .intro h1 {
   font-family: "Cako";
@@ -486,7 +486,7 @@ footer p {
   border-radius: 238.5px;
 }
 .intro .arrow {
-  margin-top: 12rem;
+  margin-top: 6rem;
 }
 
 .about h1 {
@@ -497,13 +497,14 @@ footer p {
 .about p {
   width: calc(100% / 2 - 75px);
   align-self: center;
-  border-left: solid 1px #514425;
+  border-left: solid 1px #d9d9d9;
   font-size: 0.9rem;
   margin-top: 3rem;
   padding-left: 40px;
   padding-top: 2rem;
   padding-bottom: 2rem;
   z-index: 1;
+  text-align: justify;
 }
 .about a {
   text-decoration: none;
@@ -545,13 +546,14 @@ footer p {
   z-index: 0;
 }
 .about .arrow {
-  margin-top: 6rem;
   margin-bottom: 5rem;
 }
 
 .skills {
   background-color: #d9e5de;
-  height: 100vh;
+}
+.skills h3 {
+  padding-top: 2rem;
 }
 .skills .toolkit {
   margin: 15vh 0 5vh;
@@ -567,6 +569,7 @@ footer p {
   gap: 1em;
   justify-content: center;
   border-left: solid 1px #514425;
+  margin-bottom: 5rem;
 }
 .skills .icon-container {
   width: 25%;
@@ -596,7 +599,7 @@ footer p {
 
 .projects h1 {
   text-align: center;
-  padding: 1em;
+  padding-top: 1rem;
 }
 .projects .projects-container {
   display: flex;
@@ -622,7 +625,7 @@ footer p {
 }
 .projects .project-description p {
   font-size: 0.8rem;
-  text-align: center;
+  text-align: justify;
   padding-bottom: 1rem;
   color: #514425;
 }
@@ -634,10 +637,14 @@ footer p {
   color: #514425;
   text-transform: uppercase;
 }
+.projects .project-description a:hover {
+  color: #4D9796;
+  transition: 0.3s;
+}
 .projects .project-description .links {
   display: flex;
   gap: 1rem;
-  border-top: #514425 1px solid;
+  border-top: 1px solid #d9d9d9;
   padding-top: 15px;
 }
 
@@ -709,6 +716,56 @@ footer p {
 
   .contact-section {
     margin: auto -100px;
+  }
+}
+@media (max-width: 1000px) {
+  .intro h1 {
+    font-size: 1.7rem;
+    padding-left: 3%;
+  }
+  .intro .mint-circle {
+    top: 13%;
+    left: 10%;
+  }
+  .intro img {
+    margin-top: 3rem;
+  }
+
+  .about .orange-circle {
+    top: 125%;
+    left: -3%;
+  }
+  .about h1 {
+    margin-top: -4rem;
+  }
+  .about .image-about-container {
+    flex-direction: column-reverse;
+  }
+  .about .image-about-container p {
+    margin-top: 0;
+  }
+
+  .projects {
+    padding-bottom: 3rem;
+  }
+  .projects h4 {
+    text-align: center;
+  }
+
+  .contact-section {
+    width: 100%;
+    margin: auto -53px;
+  }
+  .contact-section textarea,
+.contact-section input {
+    width: 150%;
+  }
+  .contact-section .contact-icons {
+    padding-left: 117px;
+  }
+
+  .project-description p {
+    width: 150%;
   }
 }
 @font-face {

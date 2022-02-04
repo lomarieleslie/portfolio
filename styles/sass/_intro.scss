@@ -1,0 +1,54 @@
+// Intro Styles
+
+.intro {
+  background-color: #eae7e2;
+  height: 100vh;
+  
+
+  .mint-circle {
+    border-radius: 100%;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 16%;
+    top: 30%;
+    background: #d9e5de;
+    z-index: 0;
+  }
+
+  .intro-container {
+    display: flex;
+    padding-top: 10%;
+  }
+
+  .lorraine-leslie {
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  h1 {
+    font-family: "Cako";
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    font-weight: normal;
+    color: #54482c;
+    width: 75%;
+    margin: 0;
+    padding-left: 6%;
+    align-self: center;
+    position: relative;
+    z-index: 1;
+  }
+  img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    background: #d8d8d8;
+    border-radius: 238.5px;
+  }
+
+  .arrow {
+    margin-top: 6rem;
+  }
+
+}
+

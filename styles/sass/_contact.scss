@@ -1,0 +1,118 @@
+// Contact Styles
+.contact {
+  background: #d3dddf;
+  border-radius: 80px 80px 0px 0px;
+  padding-bottom: 4rem;
+
+  h3 {
+    text-align: center;
+    padding: 1em;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 50%;
+  }
+
+
+  textarea,
+  input {
+    font-family: 'Open Sans';
+    color: #514425;
+    resize: none;
+    width: 100%;
+    padding: .2em;
+    background-color: #d3dddf;
+    border: 1px solid #514425;
+  }
+
+  input::placeholder{
+    text-transform: uppercase;
+  }
+
+  .name-email-input {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  #messages {
+    width: 500px;
+  }
+
+  button {
+    width: 6rem;
+    background-color:#d3dddf ;
+    font-family: 'Open Sans';
+    font-size: .8rem;
+    border: none;
+    text-transform: uppercase;
+  }
+
+  .circle{
+    width: 20px;
+    height: 20px;
+    background-color: #f9bb57;
+    border-radius: 50%;
+    display: flex;
+  }
+
+  .button-container {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+    justify-content: flex-end;
+  }
+
+  button:hover{
+    color: #4D9796;
+    transition: .3s ease-in;
+    
+  }
+
+
+  .contact-section{
+    display: flex;
+    gap:5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+   .contact-icons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    justify-content: center;
+    gap: 2em;
+
+  }
+
+  a{
+    color: #d9e5de;
+    background-color: #54482c;
+    border-radius: 50%;
+    padding: .4em;
+    text-align: center;
+    width: 43px;
+  }
+
+  a:hover {
+   background-color: #4D9796;
+   transition: .3s ease-in;
+    
+  }
+
+  i {
+    width: 33px;
+  }
+
+  
+}

@@ -358,6 +358,7 @@ header a:focus {
 .contact input {
   font-family: "Open Sans";
   color: #514425;
+  font-size: 0.9rem;
   resize: none;
   width: 100%;
   padding: 7px;
@@ -386,8 +387,9 @@ header a:focus {
 .contact button {
   width: 6rem;
   background-color: #d3dddf;
+  color: #54482c;
   font-family: "Open Sans";
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   border: none;
   text-transform: uppercase;
 }
@@ -456,6 +458,7 @@ footer {
   text-transform: uppercase;
   font-size: 0.8rem;
   padding: 1rem;
+  letter-spacing: 1px;
 }
 footer p {
   color: #54482c;
@@ -662,6 +665,7 @@ footer p {
   text-transform: uppercase;
   border: 1px solid #d9d9d9;
   padding: 10px;
+  text-align: center;
 }
 .projects .project-description a:hover {
   color: #4d9796;
@@ -679,6 +683,7 @@ footer p {
   border-top: 1px solid #d9d9d9;
   padding-top: 15px;
   align-items: center;
+  width: 255px;
 }
 
 @media (max-width: 1000px) {
@@ -751,7 +756,7 @@ footer p {
     margin: auto -100px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 625px) {
   .intro h1 {
     font-size: 1.7rem;
     padding-left: 3%;
@@ -797,8 +802,20 @@ footer p {
     padding-left: 117px;
   }
 
+  .links {
+    width: 90%;
+  }
+
+  a {
+    width: 120%;
+  }
+
   .project-description p {
     width: 150%;
+  }
+
+  footer p {
+    font-size: 13px;
   }
 }
 @font-face {

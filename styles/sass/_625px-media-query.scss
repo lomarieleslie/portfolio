@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 625px) {
   .intro {
     h1 {
       font-size: 1.7rem;
@@ -55,9 +55,30 @@
     }
   }
 
+  .links {
+    width: 90%;
+  }
+
+  a {
+    width: 120%;
+  }
+
   .project-description {
     p {
       width: 150%;
     }
+
+
   }
+
+  footer{
+    p{
+      font-size: 13px;
+    }
+
+  
+  
 }
+}
+
+

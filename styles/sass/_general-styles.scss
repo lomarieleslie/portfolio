@@ -42,31 +42,33 @@ h1 {
   transition: 0.3s;
 }
 
+.arrow-down:focus {
+  border: solid #f9bb57;
+  border-width: 0 3px 3px 0;
+  transition: 0.3s;
+}
+
 .about,
-.skills{
+.skills {
   background-color: #eae7e2;
 }
 
-
 .wrapper {
-    max-width: 1000px;
-    margin: 0 auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 h4 {
-  font-family: 'Cako';
+  font-family: "Cako";
   font-weight: lighter;
   font-size: 1.2rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   color: #54482c;
 }
 
-  h3 {
-    font-family: "Cako";
-    text-align: center;
-    font-size: 3rem;
-    color: #514425;
-
-  }
-
- 
+h3 {
+  font-family: "Cako";
+  text-align: center;
+  font-size: 3rem;
+  color: #514425;
+}

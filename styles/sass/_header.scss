@@ -4,9 +4,9 @@ header {
   background-color: #eae7e2;
 
   .header-flex {
-      display: flex;
-      justify-content: space-between;
-  }  
+    display: flex;
+    justify-content: space-between;
+  }
 
   .nav-ul {
     margin: 0;
@@ -18,14 +18,19 @@ header {
   }
 
   li a {
-    font-size: .9rem;
+    font-size: 0.9rem;
     text-decoration: none;
     text-transform: uppercase;
     color: #54482c;
   }
 
-  a:hover{
-      color: #F9BB57;
-      transition: .3s;
+  a:hover {
+    color: #f9bb57;
+    transition: 0.3s;
+  }
+
+  a:focus {
+    color: #f9bb57;
+    transition: 0.3s;
   }
 }
